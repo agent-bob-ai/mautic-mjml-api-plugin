@@ -1,5 +1,10 @@
 # Mautic MJML API Bundle
 
+> **Agent BOB's fork, branch `7.x`:** the `main` branch's code, packaged for Mautic 7
+> (`agent-bob-ai/mautic-mjml-api-plugin`, `mautic/core-lib ^7.0`, PHP 8.2+, installs to
+> `plugins/MauticMjmlApiBundle`). `main` is the Mautic 5 version. Licence unchanged
+> (LICENSE).
+
 A Mautic plugin that enables the creation and modification of emails via API using **MJML** content. 
 
 This plugin solves a common problem when automating email creation in Mautic: it allows you to upload MJML code, automatically compiles it to HTML for sending, and stores the original MJML in the **GrapesJS builder** tables. This ensures that emails created via API remain fully editable within Mautic's visual builder.

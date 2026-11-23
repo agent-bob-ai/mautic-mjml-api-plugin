@@ -1,8 +1,7 @@
 {
-    "name": "drmarkyslo/mautic-mjml-api-bundle",
-    "description": "Mautic plugin for creating and editing emails via API using MJML content.",
+    "name": "agent-bob-ai/mautic-mjml-api-plugin",
+    "description": "Mautic plugin for creating and editing emails via API using MJML content. Agent BOB's Mautic 7 branch of drMarkySlo/mautic-mjml-api-plugin.",
     "type": "mautic-plugin",
-    "version": "1.0.0",
     "keywords": ["mautic", "plugin", "mjml", "api", "email", "grapesjs"],
     "homepage": "https://github.com/drMarkySlo/mautic-mjml-api-plugin",
     "license": "GPL-3.0-only",
@@ -18,7 +17,11 @@
         "source": "https://github.com/drMarkySlo/mautic-mjml-api-plugin"
     },
     "require": {
-        "mautic/core-lib": "^4.0 || ^5.0"
+        "php": "^8.2",
+        "mautic/core-lib": "^7.0"
+    },
+    "extra": {
+        "install-directory-name": "MauticMjmlApiBundle"
     },
     "autoload": {
         "psr-4": {
